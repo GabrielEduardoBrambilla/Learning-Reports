@@ -2,18 +2,30 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  text-decoration: none;
 }
 
-
+hr{
+  width: 120%;
+  position: static;
+  align-self: center;
+  text-align: center;
+}
 main{
   height: 100%;
-  
+  color: #e5e5e5 ;
   margin: 0px 15vw;
   padding: 10vh;
-  background-color: lightblue;
-  border-left-style: solid;
+  background-color: #172c58;
+  /* border-left-style: solid;
   border-right-style: solid;
-  border-color: rgb(0, 0, 0);
+  border-color: rgb(0, 0, 0); */
+
+  
+
 }
 hr{
   margin: 3vh;
@@ -28,6 +40,7 @@ p::first-letter{
 }
 
 .title{
+  color: #fca311;
   padding: 1vh 1vw;
 }
 

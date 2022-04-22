@@ -1,15 +1,9 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 30px 10%;
-  background-color: #24252a;
+  background-color: #14213d;
 }
 
 .logo {
@@ -44,19 +38,19 @@ a {
 }
 
 .nav__links li a:hover {
-  color: #7ed957;
+  color: #fca311;
 }
 
 .userprofile {
   padding: 9px 25px;
-  background-color: rgba(126, 217, 87, 0.8);
+  background-color: rgba(252, 163, 17, 0.8);
   border: none;
   border-radius: 50px;
   cursor: pointer;
   transition: background-color 0.3s ease 0s;
 }
 .userprofile:hover {
-  background-color: rgba(126, 217, 87, 0.6);
+  background-color: rgba(252, 163, 17, 0.6);
 }
 
 .simple_balance {
