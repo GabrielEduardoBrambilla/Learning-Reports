@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+main{
+  height: 100%;
+  margin: 0px 15vw;
+  padding: 10vh;
+}
+hr{
+  margin: 3vh;
+  background-color: black;
+}
+
+p{
+}
+
+p::first-letter{
+  margin-left: 1vw;
+}
+
+.title{
+  padding: 1vh 1vw;
+}
+
+.content{
+  padding-left: 2.5vw;
+  padding-right: 0.5vw;
+}
+
+.content-list{
+  list-style: none;
+  margin-left: 2vw;
+}
