@@ -8,17 +8,12 @@
   text-decoration: none;
 }
 
-hr{
-  width: 120%;
-  position: static;
-  align-self: center;
-  text-align: center;
-}
+
 main{
   height: 100%;
   color: #e5e5e5 ;
   margin: 0px 15vw;
-  padding: 10vh;
+  padding: 2.5vh 4vh 5vw;
   background-color: #172c58;
   /* border-left-style: solid;
   border-right-style: solid;
