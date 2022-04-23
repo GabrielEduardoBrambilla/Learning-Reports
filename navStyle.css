@@ -2,7 +2,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 10%;
+  padding: 4vh 10.5vw 4vh 10vh;
   background-color: #14213d;
 }
 
@@ -42,12 +42,17 @@ a {
 }
 
 .userprofile {
-  padding: 9px 25px;
+  
+  padding: 0.5vh 5vh;
   background-color: rgba(252, 163, 17, 0.8);
   border: none;
   border-radius: 50px;
   cursor: pointer;
   transition: background-color 0.3s ease 0s;
+
+  display: flow-root;
+  
+  
 }
 .userprofile:hover {
   background-color: rgba(252, 163, 17, 0.6);
@@ -133,7 +138,17 @@ a {
   .nav__links,
   .userprofile,
   .simple_balance {
+
     display: none;
+  }
+
+  .userprofile{
+    padding: 9px 25px;
+    background-color: rgba(252, 163, 17, 0.8);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease 0s;
   }
   .menu {
     display: initial;
