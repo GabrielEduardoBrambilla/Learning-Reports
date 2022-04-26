@@ -7,14 +7,14 @@
   text-decoration: none;
 }
 
-a:link{
+.external_link:link{
   color: aqua;
   text-decoration: underline;
 }
-a:hover{
+.external_link:hover{
   color: rgb(243, 45, 27);
 }
-a:visited{
+.external_link:visited{
   color: rgb(0, 115, 255);
 }
 
@@ -46,6 +46,7 @@ p::first-letter{
   margin-left: 1vw;
 }
 
+
 .title{
   color: #fca311;
   padding: 1vh 1vw;
@@ -57,37 +58,23 @@ p::first-letter{
 }
 
 .content-list-T{
-  background-color: burlywood;
+  background-color: #1e3a75;
   padding-left: 1vw;
+  padding-right: 1vw;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   list-style: none;
   
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+
   flex: 1 1 30%; /*grow | shrink | basis */
   
   flex-wrap: wrap;
   list-style: none;
-  margin-left: 2vw;
-
+ 
 }
-
-.content-list-T2{
-  background-color: darkred;
-  padding-left: 1vw;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  list-style: none;
-  
-  flex: 1 1 30%; /*grow | shrink | basis */
-  
-  flex-wrap: wrap;
-  list-style: none;
-  margin-left: 2vw;
-
-}
-
 
 .content-list{
   display: flex;
